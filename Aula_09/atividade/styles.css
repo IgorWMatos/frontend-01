@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    background-color: #131313;
+}
+
+h1{
+    color: white;
+    font-family: 'Roboto';
+}
+
+.media-picture {
+    height: 400px;
+    background-image: url(https://i0.wp.com/semprefuigeek.com.br/wp-content/uploads/2022/04/Os-Vingadores-Originais.jpg?fit=1024%2C576&ssl=1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.review-score {
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+}
+
+h2 {
+    color: steelblue;
+}
+
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto';
+}
+
+a {
+    color: yellow;
+}

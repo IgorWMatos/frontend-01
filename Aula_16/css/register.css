@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header .offer {
+    height: 40px;
+    padding: 8px 15px;
+    font-size: 15px;
+    background-color: #1CD1B0;
+}
+
+header .banner {
+    height: 70px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00669F;
+    gap: 20px;
+}
+
+header .banner img {
+    width: 40px;
+}
+
+header .banner h1 {
+    color: white;
+    font-size: 30px;
+}
+
+main {
+    position: absolute;
+    left: 30%;
+    top: 23%;
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.registro h1 {
+    position: relative;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    left: 15px;
+    align-self: flex-start;
+}
+
+.registro input {
+    font-family: 'Karla', sans-serif;
+    width: 620px;
+    height: 60px;
+    font-size: 20px;
+    padding: 20px;
+    color: #000000;
+}
+
+.registro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+select {
+    width: 620px;
+    height: 60px;
+    font-size: 20px;
+    padding: 0px 20px;
+    color:  #333333;
+}
+
+div button#limpar {
+    color: #fff;
+    background-color: #888888;
+}
+
+.registro div button {
+    font-family: 'Karla', sans-serif;
+    width: 270px;
+    height: 54px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.registro a {
+    color: rgb(28, 152, 173);
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    height: 60px;
+    width: 100vw;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00669F;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 16px;
+}

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+div.promotion-box {
+    background-color: #1CD1B0;
+    position: absolute;
+    width: 100%;
+    height: 38px;
+    left: -20px;
+    top: 0px;
+}
+
+p.promotion {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    left: 10px;
+    top: -5px;
+}
+
+div.titulo-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 101px;
+    left: -20px;
+    top: 38px;
+    padding: 10px 10px 30px 30px;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+img.batman-img {
+    position: relative;
+    z-index: 0;
+    width: 374px;
+    height: 217.81px;
+    left: 70px;
+    top: 225.11px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+p.nome-heroi {
+    position: absolute;
+    z-index: 70;
+    width: 137.69px;
+    height: 39.5px;
+    left: 234px;
+    top: 485px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+p.descricao-heroi {
+    position: absolute;
+    z-index: 80;
+    width: 301.33px;
+    height: 127.53px;
+    left: 136px;
+    top: 550px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+div.text-box {
+    position: absolute;
+    z-index: 0;
+    width: 374px;
+    height: 379.2px;
+    left: 78px;
+    top: 420px;
+
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img.batman-icon {
+    position: absolute;
+    z-index: 100;
+    width: 125px;
+    height: 20x;
+    left: 130px;
+    top: -66px;
+    display: inline-block;
+
+    border-radius: 50%;
+}
+
+p.ver-mais {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F3F3F3;
+    padding: 20px 40px 20px 40px;
+    background-color: #00669F;
+    position: relative;
+    display: inline-block;
+    top: 280px;
+    left: 120px;
+    cursor: pointer;
+}
+
+img.img-favorite {
+    display: flex;
+    position: relative;
+    top: -260px;
+    left: 15px;
+    width: 20px;
+    cursor: pointer;
+}
+
+img.batman-img2 {
+    position: relative;
+    z-index: 0;
+    width: 374px;
+    height: 217.81px;
+    left: 592px;
+    top: 0px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+p.nome-heroi2 {
+    position: absolute;
+    z-index: 70;
+    width: 137.69px;
+    height: 39.5px;
+    left: 750px;
+    top: 485px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+
+p.descricao-heroi2 {
+    position: absolute;
+    z-index: 80;
+    width: 301.33px;
+    height: 127.53px;
+    left: 660px;
+    top: 550px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+div.text-box2 {
+    position: absolute;
+    z-index: 0;
+    width: 374px;
+    height: 379.2px;
+    left: 600px;
+    top: 420px;
+
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img.batman-icon2 {
+    position: absolute;
+    z-index: 99;
+    width: 125px;
+    height: 20x;
+    left: 130px;
+    top: -66px;
+    display: inline-block;
+
+    border-radius: 50%;
+}
+
+p.ver-mais2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F3F3F3;
+    padding: 20px 40px 20px 40px;
+    background-color: #00669F;
+    position: relative;
+    display: inline-block;
+    top: 280px;
+    left: 125px;
+    cursor: pointer;
+}
+
+img.img-favorite2 {
+    display: flex;
+    position: relative;
+    top: -260px;
+    left: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #00669F;
+}
+
+div.rodape1 {
+    background-color: #00669F;
+    position: absolute;
+    width: 100%;
+    height: 38px;
+    left: -20px;
+    top: 890px;
+    }
+
+p.rodape {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    position: fixed;
+    top: 880px;
+    color: #FFF9F9;
+    padding: 6px;
+}
+
+div {
+    margin: auto 20px;
+}
