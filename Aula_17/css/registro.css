@@ -109,12 +109,25 @@ body form button {
     border: none;
     border-radius: 23px;
     background-color: #1CD1B0;
+    cursor: pointer;
+}
+
+form button:active {
+    color: #fff;
+    background-color: #002e49;
 }
 
 body button.limpar {
     color: #fff;
     background-color: #888;
+    cursor: pointer;
 }
+
+form button.limpar:active {
+    color: #fff;
+    background-color: #002e49;
+}
+
 
 footer {
     position: absolute;

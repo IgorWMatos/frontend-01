@@ -87,6 +87,10 @@ img.card-icon {
     cursor: pointer;
 }
 
+button:active {
+    background-color: #4700e0;
+}
+
 body {
     background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/200260/45ad5cbb50a2fa014030de72f855036d746c0e0e.jpg);
     object-fit: cover;

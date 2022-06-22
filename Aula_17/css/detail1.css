@@ -86,6 +86,10 @@ img.card-icon {
     cursor: pointer;
 }
 
+button:active {
+    background-color: #4700e0;
+}
+
 body {
     background-image: url(https://s3-alpha-sig.figma.com/img/5055/b6a0/4287309c581511998d161daaf1b42117?Expires=1656892800&Signature=MU2-zG6j3zT2j1M0SxKj5kqvAKyrJZ0301DYB0NgGVMbUIcPzxVoJS9L434pbYuiuW8FfsMzDhUsExvSfmef7NpM8Kjqzl6IGQ3v8fjOqQwK3YqdLkzxiivqZvuCIEu01IniYlJXD8u6ClsJar0B5ak3UvME8AOW1IsbDLnMlJ0tK~h6T8WmPEs~74Aq6R0GNFSl2351nXyzCBYmOEbhL6bowP2NWzdLQ2vtKAxmWTiNw9JVAK-393-sioFpKP1A0y6S-s3jj-lIzaQdqYJwkfC3UUj0lI905i2J6PW5TM3Et0Nl9B1O70QDA7hO6euQ05FopZ1eu-Z7Z-wHeFAopw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
     object-fit: cover;

@@ -82,6 +82,12 @@ main {
     background-color: #1CD1B0;
     border: none;
     border-radius: 23px;
+    cursor: pointer;
+}
+
+.login button:active {
+    color: #fff;
+    background-color: #000;
 }
 
 form p {

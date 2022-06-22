@@ -86,6 +86,10 @@ img.card-icon {
     cursor: pointer;
 }
 
+button:active {
+    background-color: #4700e0;
+}
+
 body {
     background-image: url(https://www.figma.com/file/VkTG9KdHABiy7DOwkXmkMa/image/0912c7682d7ba7d6fd90359157661c84fdf828f4?fuid=1108553447242840857);
     background-repeat: no-repeat;
