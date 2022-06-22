@@ -227,6 +227,11 @@ div.poderes {
     font-weight: 300;
 }
 
+.poderes p.type {
+    margin-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
 .l1 {
     padding: 2px 0;
     gap: 10px;
