@@ -15,6 +15,28 @@ html {
     scroll-behavior: smooth;
 }
 
+@-webkit-keyframes surge {
+    0% {
+        transform: scale(0.6);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@keyframes surge {
+    0% {
+        transform: scale(0.6);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 .material-symbols-outlined {
     font-variation-settings:
         'FILL' 1,
@@ -108,18 +130,10 @@ main .container {
     background-color: rgb(240, 240, 240);
     border: 3px solid #8dc100;
     border-radius: 12px;
-    animation: expand 1s;
+    -webkit-animation: surge 1s;
+    animation: surge 1s;
 }
 
-@keyframes expand {
-    0% {
-        scale: 0.6;
-    }
-
-    100% {
-        scale: 1;
-    }
-}
 
 .logo {
     display: flex;
