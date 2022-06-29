@@ -108,6 +108,17 @@ main .container {
     background-color: rgb(240, 240, 240);
     border: 3px solid #8dc100;
     border-radius: 12px;
+    animation: expand 1s;
+}
+
+@keyframes expand {
+    0% {
+        scale: 0.6;
+    }
+
+    100% {
+        scale: 1;
+    }
 }
 
 .logo {
@@ -174,7 +185,8 @@ main .logo h1 b {
 }
 
 .container button:active {
-    color: #000
+    color: #000;
+    transform: scale(0.95);
 }
 
 footer {
