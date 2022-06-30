@@ -99,7 +99,7 @@ main .content {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-blend-mode:hard-light;
+    background-blend-mode: hard-light;
     background-color: #000000;
 }
 
@@ -107,7 +107,7 @@ main .content {
     width: 600px;
     padding: 20px;
     background-color: #0000005d;
-    border:1px solid #cb1e40;
+    border: 1px solid #cb1e40;
 }
 
 main .written h1 {
@@ -146,4 +146,29 @@ footer .first-name img {
 footer .credits {
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width:500px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header ul {
+        display: flex;
+        height: 100%;
+    }
+
+    header .second-section ul {
+        gap: 10px;
+    }
+
+    header .second-section a {
+        font-size: 16px;
+    }
+
+    .written {
+        max-width: 350px;
+    }
 }

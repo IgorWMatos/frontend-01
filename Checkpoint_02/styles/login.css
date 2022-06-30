@@ -127,7 +127,7 @@ main .container {
     align-items: center;
     height: 400px;
     width: 380px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(158, 158, 158);
     border: 3px solid #8dc100;
     border-radius: 12px;
     -webkit-animation: surge 1s;
@@ -200,6 +200,7 @@ main .logo h1 b {
 
 .container button:active {
     color: #000;
+    border: 2px solid #cb1e40;
     transform: scale(0.95);
 }
 
@@ -228,4 +229,26 @@ footer .first-name img {
 footer .credits {
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width:500px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header ul {
+        display: flex;
+        height: 100%;
+    }
+
+    header .second-section ul {
+        gap: 10px;
+    }
+
+    header .second-section a {
+        font-size: 16px;
+    }
+
 }
