@@ -95,7 +95,7 @@ main .first-section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 68px);
+    height: 100vh;
     background-image: url(../imgs/bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,4 +281,30 @@ footer .first-name img {
 footer .credits {
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width:500px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header ul {
+        display: flex;
+        height: 100%;
+    }
+
+    header .second-section ul {
+        gap: 10px;
+    }
+
+    header .second-section a {
+        font-size: 16px;
+    }
+
+    main .first-section .content {
+        width: 380px;
+    }
+
 }
